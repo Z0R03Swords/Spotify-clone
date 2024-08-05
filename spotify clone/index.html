@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="assets/logo.svg" alt="logo">
+                    <div class="cross"> <img src="assets/cross.svg" class="invert" alt=""></div>
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="assets/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="assets/search.svg" alt="search">Search</li>
+                </ul> 
+            </div>
+            <div class="library bg-black bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="assets/library.svg" alt="">
+                    <h2>
+                        Your library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span>
+                        </a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <br>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span>
+                        </a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                    <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener"><span>Cookies</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right bg-grey rounded ">
+        <div class="header rounded">
+            <div class="nav">
+                <div class="hamburger">
+                    <img src="assets/hamburger.svg" class="invert" alt="">
+                </div>
+                <svg class="pren" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    color="#000000" fill="none">
+                    <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <svg class="pren" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    color="#000000" fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="button">
+                <button class="signBtn">Sign up</button>
+                <button class="loginBtn">Log in</button>
+            </div>
+        </div>
+        <div class="spotifyPlaylist">
+            <h1 class="h1pad">Spotify Playlist</h1>
+            <div class="cardContainer ">
+                <div data-folder="fav" class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550"
+                        alt="Happy-Hits">
+                    <h2 class="hitsH">Happy Hits!</h2>
+                    <p class="hitsP">Hits to boost your mood and fill you with happiness!</p>
+                </div>
+
+                <div data-folder="ncs" class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f000000029527413150cbd6d9b2a3785a"
+                        alt="Calming-Acoustic">
+                    <h2 class="hitsH">Calming Acoustic</h2>
+                    <p class="hitsP">Keep calm with instrumental acoustic tracks.</p>
+                </div>
+                <div class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f00000002b70e0f51ac4cf9d62cee4977"
+                        alt="Christmas-Classics">
+                    <h2 class="hitsH">Christmas Classics</h2>
+                    <p class="hitsP">Timeless heart-warming classics from 1940- 1980 for the holiday season.</p>
+                </div>
+                <div class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f00000002640aa944e9d545e4dff348c1"
+                        alt="lofi-chill">
+                    <h2 class="hitsH">lofi chill</h2>
+                    <p class="hitsP">Lazy slow lofi beats for laid-back moments.</p>
+                </div>
+                <div class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f00000002204335eb7d241ef0dbf5c5ad"
+                        alt="Viral-Hits">
+                    <h2 class="hitsH">Viral Hits</h2>
+                    <p class="hitsP">Viral, trending and taking off.</p>
+                </div>
+                <div class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f00000002cf17a24ef538cbc065f72342"
+                        alt="Lounge-SoftHouse">
+                    <h2 class="hitsH">Lounge - Soft House</h2>
+                    <p class="hitsP">Soft house music for your laidback moments.</p>
+                </div>
+                <div class="card rounded">
+                    <div class="play">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70">
+                            <circle cx="12" cy="12" r="10" fill="green" />
+                            <path
+                                d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <img class="first rounded" src="https://i.scdn.co/image/ab67706f000000023ce3c6f71e75ec78cc5a6fa9"
+                        alt="Cozy-Christmas-Jazz">
+                    <h2 class="hitsH">Cozy Christmas Jazz</h2>
+                    <p class="hitsP">Warm instrumental versions of your favorite Christmas songs.</p>
+                </div>
+            </div>
+
+
+            <div class="playbar">
+
+
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="btnInfo">
+                    <div class="songInfo">
+
+                    </div>
+
+                    <div class="songbutton">
+
+                        <img id="previous" src="assets/pre.svg" alt="previous">
+                        <img id="play" src="assets/play.svg" alt="play">
+                        <img id="next" src="assets/next.svg" alt="next">
+                    </div>
+
+                </div>
+                <div class="voltime">
+                    <div class="songTime"></div>
+                    <div class="volume">
+
+
+                        <img id="volume" class="invert" src="assets/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" class="volrange" name="volume" id="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
